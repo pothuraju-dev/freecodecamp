@@ -4,7 +4,6 @@
  * @returns {string} - The hexadecimal representation of the number.
  */
 function decimalToHeaxadecimal(n) {
-    console.log("number", n)
     const hexDigits = "0123456789ABCDEF";
     let hexNumber = "";
     
@@ -55,7 +54,6 @@ function getRandomColorCode() {
     for (let i = 0; i < 6; i++) {
         code += decimalToHeaxadecimal(getRandomNumber());
     }
-    console.log("code", code)
     return code;
 }
 
